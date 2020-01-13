@@ -11,5 +11,5 @@ $ git clone https://github.com/ryoma123/dotfiles.git ~/.dotfiles
 
 $ set -x RCRC ~/.dotfiles/rcrc && rcup
 
-$ fish setup.fish
+$ fish ~/.dotfiles/setup.fish
 ```
