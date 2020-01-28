@@ -3,3 +3,6 @@ vendor
 vendor/bundle
 log/*.log
 tmp
+
+.env
+.tags
