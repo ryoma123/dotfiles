@@ -15,7 +15,7 @@ if dein#load_state('~/.cache/dein')
   endif
 
   " toml を更新したら実行する
-  " :call dein#update
+  " :call dein#update()
   " :call dein#clear_state()
   " :call dein#recache_runtimepath()
   let s:toml = '~/.config/nvim/dein.toml'
