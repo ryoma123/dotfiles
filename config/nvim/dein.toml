@@ -108,6 +108,6 @@ hook_add = '''
 [[plugins]]
 repo = 'simeji/winresizer'
 hook_add = '''
-  let g:winresizer_start_key = ''
-  nnoremap se :WinResizerStartResize<CR>
+  let g:winresizer_start_key = '<C-T>'
+  let g:winresizer_keycode_cancel = 122
 '''
